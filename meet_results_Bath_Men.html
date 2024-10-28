@@ -31,70 +31,110 @@
 </div>
 
 <section id="athlete-results">
-   <h2>Athlete Results</h2>
-   <div class="table-container">
-      <table>
-         <thead>
-            <tr>
-               <th class="data-priority">Name</th>
-               <th class="data-priority">Grade</th>
-               <th>Time</th>
-               <th>Place</th>
-               <th>Team</th>
-               <th>Profile Picture</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr class="athlete-row">
-               <td class="athlete-info">
-                   <span class="athlete-name">Nicholas Yuan</span>
-                   <div class="athlete-details">
-                       <p><i class="fas fa-medal"></i> Wins: 3</p> <!-- Medal icon -->
-                       <p><i class="fas fa-clock"></i> Race Time: 17:07.73</p> <!-- Clock icon -->
-                   </div>
-               </td>
-               <td>10</td>
-               <td>17:44.4</td>
-               <td>28</td>
-               <td><a href="https://www.athletic.net/athlete/21615273/cross-country">Ann Arbor Skyline</a></td>
-               <td><img class="profile-picture" src="Client-Data-Files/images/AthleteImages/21615273.jpg" alt="Nicholas Yuan's picture" width="60" height="80"></td>
-           </tr>
-            <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/21142917/cross-country">Zeke Lafferty</a></td>
-               <td data-label="Grade">11</td>
-               <td data-label="Time">17:57.73</td>
-               <td data-label="Place">47</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/21142917/cross-country">Ann Arbor Skyline</a></td>
-               <td data-label="Profile Picture"><img src="Client-Data-Files/images/AthleteImages/21142917.jpg" alt="Zeke Lafferty's picture" width="60" height="80"></td>
-            </tr>
-            <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/19203161/cross-country">Martin Gehrke</a></td>
-               <td data-label="Grade">9</td>
-               <td data-label="Time">18:17.76</td>
-               <td data-label="Place">54</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/19203161/cross-country">Ann Arbor Skyline</a></td>
-               <td data-label="Profile Picture"> <img class="profile-picture"<img src="Client-Data-Files/images/AthleteImages/19203161.jpg" alt="Martin Gehrke's picture" width="60" height="80"></td>
-            </tr>
-            <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/23596331/cross-country">Tyler Ford</a></td>
-               <td data-label="Grade">11</td>
-               <td data-label="Time">18:46.44</td>
-               <td data-label="Place">65</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/23596331/cross-country">Okemos</a></td>
-               <td data-label="Profile Picture"><img src="Client-Data-Files/images/AthleteImages/23596331.jpg" alt="Tyler Ford's picture" width="60" height="80"></td>
-            </tr>
-            <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/23676523/cross-country">Jackson Defina</a></td>
-               <td data-label="Grade">10</td>
-               <td data-label="Time">20:00.32</td>
-               <td data-label="Place">81</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/23676523/cross-country">Fenton</a></td>
-               <td data-label="Profile Picture"><img src="Client-Data-Files/images/AthleteImages/23676523.jpg" alt="Jackson Defina's picture" width="60" height="80"></td>
-            </tr>
-         </tbody>
-      </table>
-   </div>
+    <h2>Athlete Results</h2>
+    <div class="table-container">
+       <table>
+          <thead>
+             <tr>
+                <th>Profile</th>
+                <th>Details</th>
+             </tr>
+          </thead>
+          <tbody>
+             <!-- Nicholas Yuan -->
+             <tr>
+                <td colspan="2">
+                    <details>
+                        <summary class="athlete-summary">
+                            <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/21615273.jpg" alt="Nicholas Yuan's picture">
+                            <a href="https://www.athletic.net/athlete/21615273/cross-country" target="_blank">Nicholas Yuan</a>
+                        </summary>
+                        <div class="extra-info">
+                            <p><i class="fas fa-user-graduate"></i> <strong>Grade:</strong> 10</p>
+                            <p><i class="fas fa-stopwatch"></i> <strong>Time:</strong> 17:44.4</p>
+                            <p><i class="fas fa-trophy"></i> <strong>Place:</strong> 28</p>
+                            <p><i class="fas fa-people-group"></i> <strong>Team:</strong> <a href="https://www.athletic.net/athlete/21615273/cross-country" target="_blank">Ann Arbor Skyline</a></p>
+                        </div>
+                    </details>
+                </td>
+             </tr>
+
+             <!-- Zeke Lafferty -->
+             <tr>
+                <td colspan="2">
+                    <details>
+                        <summary class="athlete-summary">
+                            <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/21142917.jpg" alt="Zeke Lafferty's picture">
+                            <a href="https://www.athletic.net/athlete/21142917/cross-country" target="_blank">Zeke Lafferty</a>
+                        </summary>
+                        <div class="extra-info">
+                            <p><i class="fas fa-user-graduate"></i> <strong>Grade:</strong> 11</p>
+                            <p><i class="fas fa-stopwatch"></i> <strong>Time:</strong> 17:57.73</p>
+                            <p><i class="fas fa-trophy"></i> <strong>Place:</strong> 47</p>
+                            <p><i class="fas fa-people-group"></i> <strong>Team:</strong> <a href="https://www.athletic.net/athlete/21142917/cross-country" target="_blank">Ann Arbor Skyline</a></p>
+                        </div>
+                    </details>
+                </td>
+             </tr>
+
+             <!-- Martin Gehrke -->
+             <tr>
+                <td colspan="2">
+                    <details>
+                        <summary class="athlete-summary">
+                            <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/19203161.jpg" alt="Martin Gehrke's picture">
+                            <a href="https://www.athletic.net/athlete/19203161/cross-country" target="_blank">Martin Gehrke</a>
+                        </summary>
+                        <div class="extra-info">
+                            <p><i class="fas fa-user-graduate"></i> <strong>Grade:</strong> 9</p>
+                            <p><i class="fas fa-stopwatch"></i> <strong>Time:</strong> 18:17.76</p>
+                            <p><i class="fas fa-trophy"></i> <strong>Place:</strong> 54</p>
+                            <p><i class="fas fa-people-group"></i> <strong>Team:</strong> <a href="https://www.athletic.net/athlete/19203161/cross-country" target="_blank">Ann Arbor Skyline</a></p>
+                        </div>
+                    </details>
+                </td>
+             </tr>
+
+             <!-- Tyler Ford -->
+             <tr>
+                <td colspan="2">
+                    <details>
+                        <summary class="athlete-summary">
+                            <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/23596331.jpg" alt="Tyler Ford's picture">
+                            <a href="https://www.athletic.net/athlete/23596331/cross-country" target="_blank">Tyler Ford</a>
+                        </summary>
+                        <div class="extra-info">
+                            <p><i class="fas fa-user-graduate"></i> <strong>Grade:</strong> 11</p>
+                            <p><i class="fas fa-stopwatch"></i> <strong>Time:</strong> 18:46.44</p>
+                            <p><i class="fas fa-trophy"></i> <strong>Place:</strong> 65</p>
+                            <p><i class="fas fa-people-group"></i> <strong>Team:</strong> <a href="https://www.athletic.net/athlete/23596331/cross-country" target="_blank">Okemos</a></p>
+                        </div>
+                    </details>
+                </td>
+             </tr>
+
+             <!-- Jackson Defina -->
+             <tr>
+                <td colspan="2">
+                    <details>
+                        <summary class="athlete-summary">
+                            <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/23676523.jpg" alt="Jackson Defina's picture">
+                            <a href="https://www.athletic.net/athlete/23676523/cross-country" target="_blank">Jackson Defina</a>
+                        </summary>
+                        <div class="extra-info">
+                            <p><i class="fas fa-user-graduate"></i> <strong>Grade:</strong> 10</p>
+                            <p><i class="fas fa-stopwatch"></i> <strong>Time:</strong> 20:00.32</p>
+                            <p><i class="fas fa-trophy"></i> <strong>Place:</strong> 81</p>
+                            <p><i class="fas fa-people-group"></i> <strong>Team:</strong> <a href="https://www.athletic.net/athlete/23676523/cross-country" target="_blank">Fenton</a></p>
+                        </div>
+                    </details>
+                </td>
+             </tr>
+          </tbody>
+       </table>
+    </div>
 </section>
+
 
 <section id="athlete-progress">
    <h2>Athlete Performance Over Time</h2>
@@ -345,6 +385,25 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(themeToggleButton);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll(".fade-in-section");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-in-section-visible");
+            }
+        });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => observer.observe(section));
+});
+
+
+
+
 </script>
 </body>
 </html>
+
+
