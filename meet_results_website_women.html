@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="../css/style.css">
    <title>37th Early Bird Open Womens 5000 Meters HS Open 5K Country Meet</title>
 </head>
 <body>
@@ -28,54 +28,104 @@
    <h2>Athlete Results</h2>
    <div class="table-container">
        <table>
-           <tr>
-               <th>Name</th>
-               <th>Grade</th>
-               <th>Time</th>
-               <th>Place</th>
-               <th>Team</th>
-               <th>Profile Picture</th>
-           </tr>
-           <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/23349671/cross-country">Lila Edison</a></td>
-               <td data-label="Grade">9</td>
-               <td data-label="Time">21:03.40</td>
-               <td data-label="Place">12</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/23349671/cross-country">Ann Arbor Skyline</a></td>
-               <td><img class="profile-picture" src="Client-Data-Files/images/AthleteImages/23349671.jpg" alt="Lila Edison's picture" width="60" height="80"></td>
-           </tr>
-           <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/18840215/cross-country">Izzy MacCaughan</a></td>
-               <td data-label="Grade">12</td>
-               <td data-label="Time">23:29.00</td>
-               <td data-label="Place">44</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/18840215/cross-country">Fenton</a></td>
-               <td><img src="Client-Data-Files/images/AthleteImages/18840215.jpg" alt="Izzy MacCaughan's picture" width="60" height="80"></td>
-           </tr>
-           <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/24802677/cross-country">Gwen Stotts-Walshe</a></td>
-               <td data-label="Grade">10</td>
-               <td data-label="Time">24:07.20</td>
-               <td data-label="Place">53</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/24802677/cross-country">Ann Arbor Skyline</a></td>
-               <td><img src="Client-Data-Files/images/AthleteImages/24802677.jpg" alt="Gwen Stotts-Walshe's picture" width="60" height="80"></td>
-           </tr>
-           <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/15349561/cross-country">Baneen Al-Heleal</a></td>
-               <td data-label="Grade">12</td>
-               <td data-label="Time">24:31.00</td>
-               <td data-label="Place">62</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/15349561/cross-country">Ypsilanti Community</a></td>
-               <td><img src="Client-Data-Files/images/AthleteImages/15349561.jpg" alt="Baneen Al-Heleal's picture" width="60" height="80"></td>
-           </tr>
-           <tr>
-               <td data-label="Name"><a href="https://www.athletic.net/athlete/18895017/cross-country">Vera Naines</a></td>
-               <td data-label="Grade">12</td>
-               <td data-label="Time">26:05.90</td>
-               <td data-label="Place">86</td>
-               <td data-label="Team"><a href="https://www.athletic.net/athlete/18895017/cross-country">Ann Arbor Skyline</a></td>
-               <td><img class="profile-picture"src="Client-Data-Files/images/AthleteImages/18895017.jpg" alt="Vera Naines's picture" width="60" height="80"></td>
-           </tr>
+           <thead>
+               <tr>
+                   <th>Profile</th>
+                   <th>Details</th>
+               </tr>
+           </thead>
+           <tbody>
+               <!-- Athlete: Lila Edison -->
+               <tr>
+                   <td colspan="2">
+                       <details>
+                           <summary class="athlete-summary">
+                               <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/23349671.jpg" alt="Lila Edison's picture">
+                               <span><a href="https://www.athletic.net/athlete/23349671/cross-country">Lila Edison</a></span>
+                           </summary>
+                           <div class="athlete-details">
+                               <p><strong>Grade:</strong> 9</p>
+                               <p><strong>Time:</strong> 21:03.40</p>
+                               <p><strong>Place:</strong> 12</p>
+                               <p><strong>Team:</strong> <a href="https://www.athletic.net/athlete/23349671/cross-country">Ann Arbor Skyline</a></p>
+  <!-- Athlete: Izzy MacCaughan -->
+  <tr>
+   <td colspan="2">
+       <details>
+           <summary class="athlete-summary">
+               <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/18840215.jpg" alt="Izzy MacCaughan's picture">
+               <span><a href="https://www.athletic.net/athlete/18840215/cross-country">Izzy MacCaughan</a></span>
+           </summary>
+           <div class="athlete-details">
+               <p><strong>Grade:</strong> 12</p>
+               <p><strong>Time:</strong> 23:29.00</p>
+               <p><strong>Place:</strong> 44</p>
+               <p><strong>Team:</strong> <a href="https://www.athletic.net/athlete/18840215/cross-country">Fenton</a></p>
+           </div>
+       </details>
+   </td>
+</tr>
+
+<!-- Additional athletes below -->
+
+<!-- Athlete: Jane Doe -->
+<tr>
+   <td colspan="2">
+       <details>
+           <summary class="athlete-summary">
+               <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/12345678.jpg" alt="Jane Doe's picture">
+               <span><a href="https://www.athletic.net/athlete/12345678/cross-country">Jane Doe</a></span>
+           </summary>
+           <div class="athlete-details">
+               <p><strong>Grade:</strong> 10</p>
+               <p><strong>Time:</strong> 20:59.40</p>
+               <p><strong>Place:</strong> 9</p>
+               <p><strong>Team:</strong> <a href="https://www.athletic.net/athlete/12345678/cross-country">Ann Arbor Skyline</a></p>
+           </div>
+       </details>
+   </td>
+</tr>
+
+<!-- Athlete: John Smith -->
+<tr>
+   <td colspan="2">
+       <details>
+           <summary class="athlete-summary">
+               <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/87654321.jpg" alt="John Smith's picture">
+               <span><a href="https://www.athletic.net/athlete/87654321/cross-country">John Smith</a></span>
+           </summary>
+           <div class="athlete-details">
+               <p><strong>Grade:</strong> 11</p>
+               <p><strong>Time:</strong> 22:10.50</p>
+               <p><strong>Place:</strong> 33</p>
+               <p><strong>Team:</strong> <a href="https://www.athletic.net/athlete/87654321/cross-country">Ann Arbor Skyline</a></p>
+           </div>
+       </details>
+   </td>
+</tr>
+
+                    
+               <!-- Athlete: Izzy MacCaughan -->
+               <tr>
+                   <td colspan="2">
+                       <details>
+                           <summary class="athlete-summary">
+                               <img class="profile-picture" src="Client-Data-Files/images/AthleteImages/18840215.jpg" alt="Izzy MacCaughan's picture">
+                               <span><a href="https://www.athletic.net/athlete/18840215/cross-country">Izzy MacCaughan</a></span>
+                           </summary>
+                           <div class="athlete-details">
+                               <p><strong>Grade:</strong> 12</p>
+                               <p><strong>Time:</strong> 23:29.00</p>
+                               <p><strong>Place:</strong> 44</p>
+                               <p><strong>Team:</strong> <a href="https://www.athletic.net/athlete/18840215/cross-country">Fenton</a></p>
+                           </div>
+                       </details>
+                   </td>
+               </tr>
+
+               <!-- Repeat similar structure for each additional athlete -->
+
+           </tbody>
        </table>
    </div>
 </section>
@@ -264,6 +314,55 @@ document.querySelectorAll('.athlete-name').forEach(name => {
         });
     });
 });
+
+// Toggle light and dark mode
+function toggleTheme() {
+    document.body.classList.toggle("light-mode");
+}
+
+// Add a button to toggle themes
+document.addEventListener("DOMContentLoaded", () => {
+    const themeToggleButton = document.createElement("button");
+    themeToggleButton.innerText = "Toggle Light/Dark Mode";
+    themeToggleButton.onclick = toggleTheme;
+    themeToggleButton.style.position = "fixed";
+    themeToggleButton.style.top = "10px";
+    themeToggleButton.style.right = "10px";
+    themeToggleButton.style.padding = "10px";
+    themeToggleButton.style.cursor = "pointer";
+    document.body.appendChild(themeToggleButton);
+});
+
+// Toggle light and dark mode
+function toggleTheme() {
+    document.body.classList.toggle("light-mode"); // Toggles the light-mode class on body
+    const isLightMode = document.body.classList.contains("light-mode");
+    localStorage.setItem("theme", isLightMode ? "light" : "dark"); // Save the theme preference
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "light") {
+        document.body.classList.add("light-mode");
+    }
+
+    // Create and style the toggle button
+    const themeToggleButton = document.createElement("button");
+    themeToggleButton.innerText = "Toggle Light/Dark Mode";
+    themeToggleButton.onclick = toggleTheme;
+    themeToggleButton.style.position = "fixed";
+    themeToggleButton.style.top = "20px";
+    themeToggleButton.style.right = "20px";
+    themeToggleButton.style.padding = "10px";
+    themeToggleButton.style.backgroundColor = "#333";
+    themeToggleButton.style.color = "#fff";
+    themeToggleButton.style.border = "none";
+    themeToggleButton.style.borderRadius = "5px";
+    themeToggleButton.style.cursor = "pointer";
+    themeToggleButton.style.zIndex = "1000";
+    document.body.appendChild(themeToggleButton);
+});
+
 </script>
 </body>
 </html>
